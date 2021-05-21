@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1401" started-at="2021-05-21T11:36:11Z" finished-at="2021-05-21T11:36:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1401" started-at="2021-05-21T11:36:11Z" finished-at="2021-05-21T11:36:13Z">
+      <class name="scenarios.SampleTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:scenarios.SampleTest@9629756]" name="login" duration-ms="0" started-at="2021-05-21T11:36:11Z" description="login" finished-at="2021-05-21T11:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="search()[pri:0, instance:scenarios.SampleTest@9629756]" name="search" duration-ms="4" started-at="2021-05-21T11:36:12Z" description="search for flights" depends-on-methods="scenarios.SampleTest.login" finished-at="2021-05-21T11:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="select()[pri:0, instance:scenarios.SampleTest@9629756]" name="select" duration-ms="2" started-at="2021-05-21T11:36:12Z" description="select flight" depends-on-methods="scenarios.SampleTest.search" finished-at="2021-05-21T11:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select -->
+        <test-method status="PASS" signature="book()[pri:0, instance:scenarios.SampleTest@9629756]" name="book" duration-ms="1" started-at="2021-05-21T11:36:12Z" description="book flight" depends-on-methods="scenarios.SampleTest.select" finished-at="2021-05-21T11:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:scenarios.SampleTest@9629756]" name="logout" duration-ms="3" started-at="2021-05-21T11:36:12Z" description="logout" depends-on-methods="scenarios.SampleTest.book" finished-at="2021-05-21T11:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- scenarios.SampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
