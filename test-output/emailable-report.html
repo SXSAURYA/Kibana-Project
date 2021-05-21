@@ -9,14 +9,29 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">1,401</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num attn">6</td><td class="num attn">2</td><td class="num">2,184</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">scenarios.SampleTest</td><td><a href="#m0">book</a></td><td rowspan="1">1621596972825</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m1">login</a></td><td rowspan="1">1621596971650</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m2">logout</a></td><td rowspan="1">1621596972925</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m3">search</a></td><td rowspan="1">1621596972616</td><td rowspan="1">4</td></tr><tr class="passedeven"><td><a href="#m4">select</a></td><td rowspan="1">1621596972700</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">scenarios.SampleTest</td><td><a href="#m0">search</a></td><td rowspan="1">1621600878632</td><td rowspan="1">3</td></tr><tr class="failedodd"><td rowspan="1">scenarios.SampleTest2</td><td><a href="#m1">search</a></td><td rowspan="1">1621600879130</td><td rowspan="1">3</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">scenarios.SampleTest</td><td><a href="#m2">book</a></td><td rowspan="1">1621600878831</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">logout</a></td><td rowspan="1">1621600878943</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">select</a></td><td rowspan="1">1621600878717</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="3">scenarios.SampleTest2</td><td><a href="#m5">book</a></td><td rowspan="1">1621600879318</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m6">logout</a></td><td rowspan="1">1621600879473</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m7">select</a></td><td rowspan="1">1621600879236</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">scenarios.SampleTest</td><td><a href="#m8">login</a></td><td rowspan="1">1621600877403</td><td rowspan="1">11</td></tr><tr class="passedodd"><td rowspan="1">scenarios.SampleTest2</td><td><a href="#m9">login</a></td><td rowspan="1">1621600879023</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">scenarios.SampleTest#book</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">scenarios.SampleTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">scenarios.SampleTest#logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">scenarios.SampleTest#search</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">scenarios.SampleTest#select</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">scenarios.SampleTest#search</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: issue with flight
+	at scenarios.SampleTest.search(SampleTest.java:19)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">scenarios.SampleTest2#search</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: issue with flight
+	at scenarios.SampleTest2.search(SampleTest2.java:19)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">scenarios.SampleTest#book</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SampleTest.book()[pri:0, instance:scenarios.SampleTest@735b5592] depends on not successfully finished methods
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">scenarios.SampleTest#logout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SampleTest.logout()[pri:0, instance:scenarios.SampleTest@735b5592] depends on not successfully finished methods
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">scenarios.SampleTest#select</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SampleTest.select()[pri:0, instance:scenarios.SampleTest@735b5592] depends on not successfully finished methods
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">scenarios.SampleTest2#book</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SampleTest2.book()[pri:0, instance:scenarios.SampleTest2@548a9f61] depends on not successfully finished methods
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">scenarios.SampleTest2#logout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SampleTest2.logout()[pri:0, instance:scenarios.SampleTest2@548a9f61] depends on not successfully finished methods
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">scenarios.SampleTest2#select</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SampleTest2.select()[pri:0, instance:scenarios.SampleTest2@548a9f61] depends on not successfully finished methods
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">scenarios.SampleTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">scenarios.SampleTest2#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

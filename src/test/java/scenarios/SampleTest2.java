@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import utilities.ExecutionListener;
 
 @Listeners(ExecutionListener.class)
-public class SampleTest {
+public class SampleTest2 {
 
     @Test(description = "login")
     public void login(){
